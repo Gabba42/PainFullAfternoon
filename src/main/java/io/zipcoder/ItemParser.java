@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ItemParser {
-
+  
     public ArrayList<String> parseRawDataIntoStringArray(String rawData){
         String stringPattern = "##";
         ArrayList<String> response = splitStringWithRegexPattern(stringPattern , rawData);
